@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f4f4f5, #333c40);
+    color: #333;
+  }
+  
+  header {
+    background-color: #563763;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .header-content h1 {
+    font-size: 2.5rem;
+  }
+  
+  .header-content p {
+    font-size: 1.2rem;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .about, .skills, .projects, .resume, .contact {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .about img {
+    border-radius: 50%;
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .skill-icons i {
+    font-size: 3rem;
+    margin: 15px;
+  }
+  
+  .projects .project-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: rgba(215, 207, 207, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 300px;
+    padding: 20px;
+  }
+  
+  .resume .btn, .contact .btn {
+    background-color: #4a4a8b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
